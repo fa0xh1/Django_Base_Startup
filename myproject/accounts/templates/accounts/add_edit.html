@@ -1,0 +1,60 @@
+{% extends "layouts/base.html" %}
+
+{% block content %}
+<div class="row d-flex justify-content-center">
+    <!-- left column -->
+    <div class="col-md-8 align-center">
+        <!-- general form elements -->
+        <div class="card card-success">
+            <div class="card-header d-flex justify-content-center">
+                <h2 class="card-title">{{ page_title }}</h2>
+            </div>
+            <!-- /.card-header -->
+            <!-- form start -->
+            <form role="form" method="POST">
+                    {% csrf_token %}
+                    {% if form.errors %}
+                        {% for field in form %}
+                            {% for error in field.errors %}
+                                <div class="alert alert-danger">
+                                    <strong>{{ error|escape }}</strong>
+                                </div>
+                            {% endfor %}
+                        {% endfor %}
+                        {% for error in form.non_field_errors %}
+                            <div class="alert alert-danger">
+                                <strong>{{ error|escape }}</strong>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                <div class="card-body">
+                    <input type="hidden" id="id" name="id" value="{{ users.id }}">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" value="{{ users.username }}" name="username" placeholder="Enter username">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" value="{{ users.email }}" name="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" name="password1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Retype password</label>
+                        <input type="password" class="form-control" id="password" name="password2" placeholder="Password">
+                    </div>
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <a type="button" href="{% url 'users_list' %}" class="btn btn-warning">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

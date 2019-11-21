@@ -1,4 +1,8 @@
 # Django_Base_Startup
+
+  <p align="center"><img height="400px" width="100%" src="https://user-images.githubusercontent.com/47023016/69385731-e1e93f00-0cf2-11ea-81c3-95bbefd883c2.jpg"></p>
+  
+  
   Repostori ini bertujuan untuk memudahkan developer/mahasiswa dalam membuat project atau sekedar mempelajari django.
   
   - Mohon maaf sebelumnya atas segala keterbatasan saya semoga ini bermanfaat

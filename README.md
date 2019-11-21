@@ -1,4 +1,7 @@
 # Django_Base_Startup
+  Repostori ini bertujuan untuk memudahkan developer/mahasiswa dalam membuat project atau sekedar mempelajari django.
+  
+  - Mohon maaf sebelumnya atas segala keterbatasan saya semoga ini bermanfaat
 
 # Setup Installation
 

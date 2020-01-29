@@ -4,7 +4,7 @@ certifi==2019.6.16
 cffi==1.12.3
 coverage==4.5.4
 cryptography==2.7
-Django==2.2.5
+Django==2.2.8
 django-active-link==0.1.6
 django-adminlte2==0.4.1
 django-appconf==1.0.3

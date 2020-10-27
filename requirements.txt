@@ -3,7 +3,7 @@ astroid==2.2.5
 certifi==2019.6.16
 cffi==1.12.3
 coverage==4.5.4
-cryptography==2.7
+cryptography==3.2
 Django==2.2.8
 django-active-link==0.1.6
 django-adminlte2==0.4.1

@@ -13,7 +13,7 @@ django-extensions==2.2.1
 django-rest-knox==4.1.0
 django-sass-processor==0.7.3
 djangomix==1.1.1
-djangorestframework==3.10.3
+djangorestframework==3.11.2
 future==0.17.1
 iso8601==0.1.12
 isort==4.3.21

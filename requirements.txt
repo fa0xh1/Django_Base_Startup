@@ -26,7 +26,7 @@ pipenv==2018.11.26
 pycparser==2.19
 pylint==2.3.1
 pytz==2019.2
-PyYAML==5.1.2
+PyYAML==5.4
 rcssmin==1.0.6
 rjsmin==1.1.0
 serial==0.0.97

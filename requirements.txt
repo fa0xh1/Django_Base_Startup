@@ -22,7 +22,7 @@ libsass==0.19.2
 mccabe==0.6.1
 mysqlclient==1.4.4
 Pillow==6.2.1
-pipenv==2018.11.26
+pipenv==2022.1.8
 pycparser==2.19
 pylint==2.3.1
 pytz==2019.2

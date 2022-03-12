@@ -21,7 +21,7 @@ lazy-object-proxy==1.4.1
 libsass==0.19.2
 mccabe==0.6.1
 mysqlclient==1.4.4
-Pillow==6.2.1
+Pillow==9.0.1
 pipenv==2018.11.26
 pycparser==2.19
 pylint==2.3.1
